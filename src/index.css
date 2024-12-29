@@ -43,6 +43,28 @@
   );
 }
 
+.blue-red-gradient {
+  background: "#007BFF"; /* Fallback blue color */
+  background: linear-gradient(90.13deg, #007BFF 1.9%, #FF0000 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #007BFF 1.9%, #FF0000 97.5%);
+}
+
+.vision-gradient {
+  background: linear-gradient(90deg, #ff0048 0%, #00ff85 50%, #ffd700 100%);
+  background: -webkit-linear-gradient(90deg, #ff0048 0%, #00ff85 50%, #ffd700 100%);
+}
+
+.peter-quill-gradient {
+  background: linear-gradient(90deg, #6a0dad 0%, #b22222 50%, #d3d3d3 100%);
+  background: -webkit-linear-gradient(90deg, #6a0dad 0%, #b22222 50%, #d3d3d3 100%);
+}
+
+.dr-strange-gradient {
+  background: linear-gradient(90deg, #8b0000 0%, #0033cc 50%, #ffcc00 100%);
+  background: -webkit-linear-gradient(90deg, #8b0000 0%, #0033cc 50%, #ffcc00 100%);
+}
+
+
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);

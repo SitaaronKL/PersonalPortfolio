@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    spiderman,
+    guardian,
+    media,
+    vision
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +46,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "ML Engineer",
+      icon: vision,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Fullstack Web Developer",
+      icon: spiderman,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Flutter/ReactN Developer",
+      icon: guardian,
     },
     {
       title: "Content Creator",
-      icon: creator,
+      icon: media,
     },
   ];
   
@@ -116,11 +120,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Machine Learning Research Assistant",
+      company_name: "Rutgers",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2024 - Present Day (You can change this!!!)",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,8 +133,8 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Machine Learning Engineer",
+      company_name: "Applify AI",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
@@ -172,27 +176,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Most flexible kid I've ever met. He was part of our social media, design, and AI team doing random but damn good work. Any other startup or company would be lucky to have Dhruv in their ranks. ",
+      name: "Max Tang",
+      designation: "CEO",
+      company: "ApplifyAI",
+      image: "https://media.licdn.com/dms/image/v2/C5603AQGldMO-GW8CpQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1607540484674?e=1740614400&v=beta&t=3eZZ2i3bzpmfe3tRG9GRwBvpvxanRaqZ0vCKrOnfTvc",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "He joined us at the lab before he was even a student, helping out with numerous tasks and showed real initiative and work ethic.",
+      name: "Dr.Stephanie Rossi",
+      designation: "Research Assiociate",
+      company: "Rutgers Center for Turfgrass",
+      image: "https://plantbiology.rutgers.edu/sites/default/files/styles/3x4_one_third_full_1024_2x/public/2024-08/SRossi-portrait.jpg?h=18e44ed0&itok=f8cVZqwF",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Dhruv was incredibly reliable, learning everything he needed on the fly to build AmeriTax's website, and delivered with everything I needed.",
+      name: "Narendra Lalwani",
+      designation: "CEO",
+      company: "AmeriTax",
+      image: "https://media-lga3-2.cdn.whatsapp.net/v/t61.24694-24/465895905_1601668273891342_1281141175549618614_n.jpg?stp=dst-jpg_s96x96_tt6&ccb=11-4&oh=01_Q5AaICY2LHJ7L_zqVKEQG7FMewcVId7RVAVYwudEZpM5uSCE&oe=6777CDD5&_nc_sid=5e03e0&_nc_cat=103",
     },
   ];
   

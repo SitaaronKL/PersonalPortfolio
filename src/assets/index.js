@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import spiderman from "./spiderman.gif"
+import guardian from "./guardian.gif"
+import media from "./media.gif"
+import vision from "./vision.gif"
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  spiderman,
+  guardian,
+  vision,
+  media
 };
