@@ -1,32 +1,25 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     spiderman,
     guardian,
     media,
-    vision
+    vision,
+    applifyai_logo,
+    ameritax,
+    rutgers,
+    medify,
+    psr,
+    cjcphacks
   } from "../assets";
   
   export const navLinks = [
@@ -85,10 +78,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -112,65 +101,45 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+  
   ];
   
   const experiences = [
     {
       title: "Machine Learning Research Assistant",
       company_name: "Rutgers",
-      icon: starbucks,
+      icon: rutgers,
       iconBg: "#383E56",
       date: "September 2024 - Present Day (You can change this!!!)",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducted AI research on brain-based machine learning models using TensorFlow and PyTorch; directly contributed to three innovative prototype models aimed at improving patient recovery outcomes; increasing overall lab to clinical trial efficiency by 15%.",
+        "Preprocessed and analyzed datasets with 10,000+ brain MRI data points, achieving a 20% increase in predictive accuracy for neuro-degenerative disease progression."
       ],
     },
     {
       title: "Machine Learning Engineer",
       company_name: "Applify AI",
-      icon: tesla,
+      icon: applifyai_logo,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created ProDream, an AI-powered writing tool using Python and LangChain, analyzing user documents to generate personalized writing styles; specifically engineered the document upload feature to enhance user experience by tailoring LLM models.",
+        "Composed front-end button and panel layouts using Figma & Tailwind CSS , resulting in a 15% increase in user engagement during the sign on process as measured by A/B testing with 500 users.",
+        "Reduced token costs by 10% by implementing optimized prompt engineering strategies in Python and a custom LLaMA 3 model, resulting in savings of $500 per month based on 10,000 monthly API calls."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Fullstack Software Engineer",
+      company_name: "AmeriTax Inc",
+      icon: ameritax,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and maintained the front and back end for the official website, utilizing HTML5, Tailwind CSS,  JavaScript, and React.js for a responsive and user-friendly interface.",
+        "Implemented backend functionality using MongoDB, Node.js, and Express, managing routing and APIs for seamless client-server interaction to handle customer data and tax-related information.",
+        "Deployed the website using cloud-based services such as AWS, ensuring scalability, security, and performance optimization for over 4000+ users."
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -202,67 +171,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Medify",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An AI powered hardware hack that got our team 3rd place as freshman at HackNJIT 2023! It allows a user to scan a wound and be given a accurate diagnosis and narrated treatment plan based on the resourcs available to them via a Rasperry Pi contraption and our web app!",
       tags: [
         {
-          name: "react",
+          name: "fullstack",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "raspberry-pi",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "pytorch",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: medify,
+      source_code_link: "https://devpost.com/software/medify-khoaid",
     },
     {
-      name: "Job IT",
+      name: "Princeton Soccer Robotics",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Was the captain for team Dragons in PSR during 2023, where I led my team of 4 to create and design a autonomous soccer robot that placed 5th in the RoboCupJr USA nationals!", 
       tags: [
         {
-          name: "react",
+          name: "robotics",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "arduino/c++",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "pcb design",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: psr,
+      source_code_link: "https://soccer-robotics.github.io/psr/",
     },
     {
-      name: "Trip Guide",
+      name: "CJCP Hacks",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Founded and led my high school's CS club, taught hundreds of lower classmen how to code and hosted annual hackathons with 100+ participants across the tristate area, $9k in prizes, and 10+ workshops!",
       tags: [
         {
-          name: "nextjs",
+          name: "leadership",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "python/java",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "fundraising",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: cjcphacks,
+      source_code_link: "https://www.cjcphacks.org/",
     },
   ];
   

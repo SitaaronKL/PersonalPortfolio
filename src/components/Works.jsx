@@ -2,7 +2,7 @@ import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { github } from '../assets';
+import {  link } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants/constants';
 import { fadeIn,textVariant } from '../utils/motion';
@@ -33,8 +33,8 @@ const ProjectorCard = ({index,name,description, tags,image, source_code_link}) =
           items-center cursor-pointer'
           >  
           <img 
-          src={github} 
-          alt="github" 
+          src={link} 
+          alt="link" 
           className='w-1/2 h-1/2 object-contain'
 
           />
@@ -75,7 +75,7 @@ const Works = () => {
           variants={fadeIn("","",0.1,1)}
           className='mt-3 text-secondary text-[17x] max-w-3xl leading-[30px]'
         >
-blah blah text about my projects here!
+I've worked on a variety of projects ranging from fullstack web apps to running an entire organization. I'm always looking for new projects to work on, so feel free to reach out if you have any ideas or projects you'd like to collaborate on!
         </motion.p>
       </div>
 
