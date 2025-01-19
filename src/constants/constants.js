@@ -19,7 +19,8 @@ import {
     rutgers,
     medify,
     psr,
-    cjcphacks
+    cjcphacks,
+    naren
   } from "../assets";
   
   export const navLinks = [
@@ -104,28 +105,40 @@ import {
   
   ];
   
+const stuff = "Hi! My name is Dhruv and I’m a CS and Neuroscience student at Rutgers Honors College with a passion for pushing the boundaries of technology and understanding the human brain. From building AI-powered applications and autonomous robots to being a full-stack webhead, I love taking on challenges that combine innovation with real-world impact. I’m also deeply involved in esports and tech leadership, having organized hackathons, built communities, and contributed to meaningful projects with multidisciplinary teams. Whether it’s designing cutting-edge machine learning models or experimenting with new ideas in brain-inspired computing, I’m always looking to grow, create, and make a difference."
+
   const experiences = [
     {
-      title: "Machine Learning Research Assistant",
-      company_name: "Rutgers",
+      title: "Machine Learning Intern",
+      company_name: "Rutgers University Computational Brain Lab",
       icon: rutgers,
       iconBg: "#383E56",
-      date: "September 2024 - Present Day (You can change this!!!)",
+      date: "September 2024 - Present",
       points: [
-        "Conducted AI research on brain-based machine learning models using TensorFlow and PyTorch; directly contributed to three innovative prototype models aimed at improving patient recovery outcomes; increasing overall lab to clinical trial efficiency by 15%.",
-        "Preprocessed and analyzed datasets with 10,000+ brain MRI data points, achieving a 20% increase in predictive accuracy for neuro-degenerative disease progression."
+        "Currently working on developing machine learning models with PyTorch and TensorFlow to improve the diagnosis of neurodegenerative diseases.",
+        "Also responsible for preprocessing and analyzing large brain MRI datasets that we get from Robert Wood Johnson using NumPy and R to streamline the data pipeline and enhance efficiency by 25%."
       ],
     },
     {
-      title: "Machine Learning Engineer",
+      title: "Software Developer Intern ",
+      company_name: "Rutgers University Center for Turfgrass Science",
+      icon: rutgers,
+      iconBg: "#383E56",
+      date: " July 2024 – September 2024",
+      points: [
+        "Designed and maintained scalable data pipelines for root health dataset analysis, using SQL and Python to support ongoing research efforts on how we can make better soil!",
+        "Automated statistical analysis and created data visualizations with Jupyter Notebooks and Matplotlib, making experimental results easier to interpret for stakeholders."],
+    },
+    {
+      title: "Software Engineer/ML Intern",
       company_name: "Applify AI",
       icon: applifyai_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "November 2023 – July 2024",
       points: [
-        "Created ProDream, an AI-powered writing tool using Python and LangChain, analyzing user documents to generate personalized writing styles; specifically engineered the document upload feature to enhance user experience by tailoring LLM models.",
-        "Composed front-end button and panel layouts using Figma & Tailwind CSS , resulting in a 15% increase in user engagement during the sign on process as measured by A/B testing with 500 users.",
-        "Reduced token costs by 10% by implementing optimized prompt engineering strategies in Python and a custom LLaMA 3 model, resulting in savings of $500 per month based on 10,000 monthly API calls."
+        "I joined the start up as a software engineering intern but ended up working on a variety of projects, from UI/UX to our LLM models.",
+        "Built the document upload system with FastAPI and AWS S3 to let users upload their writing samples, and fine-tuned machine learning models with PyTorch which ended up saving us $500/month.",
+        "Designed the UI/UX for the onboarding experience using Figma and Tailwind CSS, which increased our student user engagement by 15%!"
       ],
     },
     {
@@ -133,11 +146,11 @@ import {
       company_name: "AmeriTax Inc",
       icon: ameritax,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "November 2021 – September 2023",
       points: [
-        "Designed and maintained the front and back end for the official website, utilizing HTML5, Tailwind CSS,  JavaScript, and React.js for a responsive and user-friendly interface.",
-        "Implemented backend functionality using MongoDB, Node.js, and Express, managing routing and APIs for seamless client-server interaction to handle customer data and tax-related information.",
-        "Deployed the website using cloud-based services such as AWS, ensuring scalability, security, and performance optimization for over 4000+ users."
+       "Made the company's website from scratch using React and Tailwind CSS for a responsive and user-friendly experience!",
+       "Implemented the backend with so that clients could log in and see their data such as their tax returns and processed financial statements, and even check the progress of their payrolls!",
+       "Deployed the website on AWS cloud services to make sure it was always up and running for the 4000+ clients we had!"
       ],
     }
   ];
@@ -165,7 +178,7 @@ import {
       name: "Narendra Lalwani",
       designation: "CEO",
       company: "AmeriTax",
-      image: "https://media-lga3-2.cdn.whatsapp.net/v/t61.24694-24/465895905_1601668273891342_1281141175549618614_n.jpg?stp=dst-jpg_s96x96_tt6&ccb=11-4&oh=01_Q5AaICY2LHJ7L_zqVKEQG7FMewcVId7RVAVYwudEZpM5uSCE&oe=6777CDD5&_nc_sid=5e03e0&_nc_cat=103",
+      image: naren,
     },
   ];
   
@@ -235,4 +248,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, stuff};

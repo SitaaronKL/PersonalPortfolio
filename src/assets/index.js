@@ -27,6 +27,7 @@ import spiderman from "./spiderman.gif"
 import guardian from "./guardian.gif"
 import media from "./media.gif"
 import vision from "./vision.gif"
+import naren from "./naren.jpg"
 
 export {
   logo,
@@ -53,5 +54,6 @@ export {
   rutgers,
   cjcphacks,
   psr,
-  medify
+  medify, 
+  naren
 };

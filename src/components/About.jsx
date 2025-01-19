@@ -3,7 +3,7 @@ import Tilt from 'react-parallax-tilt'
 import {motion} from 'framer-motion';
 
 import { styles } from '../styles';
-import { services } from '../constants/constants';
+import { services, stuff } from '../constants/constants';
 import { fadeIn,textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
@@ -11,7 +11,7 @@ const ServiceCard = ({index, title, icon}) => {
   return(
     <Tilt className='xs:w-[250px] w-full'>
       <motion.div
-        variants={fadeIn("right", "spring",0.5 * index, 0.75)}
+        variants={fadeIn("right", "spring",0.75 * index, 0.5)}
         className={`w-full ${
           index===0 ? `vision-gradient`:
           index===1 ? `blue-red-gradient`:
@@ -58,9 +58,9 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]' 
       >
-        Billionaire. Playboy. Genius. Philathropist. Okay okay fine, I'm just kidding. That's a hard question to answer but I would say that I'm a pretty good J.A.R.V.I.S. engineer, Fullstack Webhead, Guardian of the Roblox App Store, and Master of Multiversal Media! 
+        {stuff}
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex justify-center flex-wrap gap-10'>
         {services.map((service,index) => (
           <ServiceCard key={service.title} index = 
           {index} {...service} />
