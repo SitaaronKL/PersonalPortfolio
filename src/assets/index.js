@@ -28,6 +28,9 @@ import guardian from "./guardian.gif"
 import media from "./media.gif"
 import vision from "./vision.gif"
 import naren from "./naren.jpg"
+import max from "./max.jpg"
+import vodify from "./vodify.jpg"
+import cvrve from "./projects/cvrve-black.svg"
 
 export {
   logo,
@@ -55,5 +58,8 @@ export {
   cjcphacks,
   psr,
   medify, 
-  naren
+  naren,
+  max,
+  vodify,
+  cvrve
 };

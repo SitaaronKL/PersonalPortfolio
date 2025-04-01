@@ -20,7 +20,10 @@ import {
     medify,
     psr,
     cjcphacks,
-    naren
+    naren,
+    max,
+    vodify,
+    cvrve
   } from "../assets";
   
   export const navLinks = [
@@ -105,9 +108,29 @@ import {
   
   ];
   
-const stuff = "Hi! My name is Dhruv and I’m a CS and Neuroscience student at Rutgers Honors College with a passion for pushing the boundaries of technology and understanding the human brain. From building AI-powered applications and autonomous robots to being a full-stack webhead, I love taking on challenges that combine innovation with real-world impact. I’m also deeply involved in esports and tech leadership, having organized hackathons, built communities, and contributed to meaningful projects with multidisciplinary teams. Whether it’s designing cutting-edge machine learning models or experimenting with new ideas in brain-inspired computing, I’m always looking to grow, create, and make a difference."
+const stuff = "I’m currently a Presidential Scholar at the Honors College of Rutgers, double majoring in CS and Neuroscience since I love the idea of neuro-technology and NeuroAI. In my spare time, I make gaming content as a professional Valorant player (Sitaaron#raja), run my own fashion brand, and add to my random list of skills!"
 
   const experiences = [
+    {
+      title: "Software Engineer",
+      company_name: "Rutgers University Computational Brain Lab",
+      icon: cvrve,
+      iconBg: "#383E56",
+      date: "March 2025 - Present",
+      points: [
+        "Working on the biggest student-to-tech aggregation platform."
+      ],
+    },
+    {
+      title: "Incoming Aresty Research Assistant",
+      company_name: "Rutgers University Computational Brain Lab",
+      icon: rutgers,
+      iconBg: "#383E56",
+      date: "June 2025 - Present",
+      points: [
+        "Selected to be part of Rutger's presitgious Aresty Research Assistant Program, where I will be working on 3D insectoid robotics and publishing/presenting the results."
+      ],
+    },
     {
       title: "Machine Learning Intern",
       company_name: "Rutgers University Computational Brain Lab",
@@ -115,8 +138,8 @@ const stuff = "Hi! My name is Dhruv and I’m a CS and Neuroscience student at R
       iconBg: "#383E56",
       date: "September 2024 - Present",
       points: [
-        "Currently working on developing machine learning models with PyTorch and TensorFlow to improve the diagnosis of neurodegenerative diseases.",
-        "Also responsible for preprocessing and analyzing large brain MRI datasets that we get from Robert Wood Johnson using NumPy and R to streamline the data pipeline and enhance efficiency by 25%."
+        "Currently working on developing ML models to improve the diagnosis of neurodegenerative diseases for Robert Wood Johnson Hospital using PyTorch and TensorFlow.",
+        "Also responsible for preprocessing and analyzing large brain MRI datasets using NumPy and R to streamline our data pipeline and enhance efficiency by 25%."
       ],
     },
     {
@@ -130,19 +153,19 @@ const stuff = "Hi! My name is Dhruv and I’m a CS and Neuroscience student at R
         "Automated statistical analysis and created data visualizations with Jupyter Notebooks and Matplotlib, making experimental results easier to interpret for stakeholders."],
     },
     {
-      title: "Software Engineer/ML Intern",
+      title: "SWE + ML + UI/UX Intern",
       company_name: "Applify AI",
       icon: applifyai_logo,
       iconBg: "#E6DEDD",
       date: "November 2023 – July 2024",
       points: [
-        "I joined the start up as a software engineering intern but ended up working on a variety of projects, from UI/UX to our LLM models.",
+        "I joined the start up as a software engineering intern but ended up working on a variety of projects/features.",
         "Built the document upload system with FastAPI and AWS S3 to let users upload their writing samples, and fine-tuned machine learning models with PyTorch which ended up saving us $500/month.",
         "Designed the UI/UX for the onboarding experience using Figma and Tailwind CSS, which increased our student user engagement by 15%!"
       ],
     },
     {
-      title: "Fullstack Software Engineer",
+      title: "Software Engineer",
       company_name: "AmeriTax Inc",
       icon: ameritax,
       iconBg: "#383E56",
@@ -150,7 +173,8 @@ const stuff = "Hi! My name is Dhruv and I’m a CS and Neuroscience student at R
       points: [
        "Made the company's website from scratch using React and Tailwind CSS for a responsive and user-friendly experience!",
        "Implemented the backend with so that clients could log in and see their data such as their tax returns and processed financial statements, and even check the progress of their payrolls!",
-       "Deployed the website on AWS cloud services to make sure it was always up and running for the 4000+ clients we had!"
+       "Deployed the website on AWS cloud services to make sure it was always up and running for the 4000+ clients we had!",
+       "Made numerous other software projects for the company using OpenCV to automate data entry tasks, decreasing overall payroll processing time by 30%!"
       ],
     }
   ];
@@ -162,7 +186,7 @@ const stuff = "Hi! My name is Dhruv and I’m a CS and Neuroscience student at R
       name: "Max Tang",
       designation: "CEO",
       company: "ApplifyAI",
-      image: "https://media.licdn.com/dms/image/v2/C5603AQGldMO-GW8CpQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1607540484674?e=1740614400&v=beta&t=3eZZ2i3bzpmfe3tRG9GRwBvpvxanRaqZ0vCKrOnfTvc",
+      image: max,
     },
     {
       testimonial:
@@ -184,7 +208,24 @@ const stuff = "Hi! My name is Dhruv and I’m a CS and Neuroscience student at R
   
   const projects = [
     {
-      name: "Medify",
+      name: "Co-Founded Vodify.gg",
+      description:
+        "A startup dedicated to providing easy access to gaming coaching services for everyone. Accepted into Foundess's Hatch Accelerator W25 Cohort and backend ML models were accquired for $120,000. (No longer active)",
+      tags: [
+        {
+          name: "fullstack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "green-text-gradient",
+        },
+      ],
+      image: vodify,
+      source_code_link: "https://www.vodify.gg/",
+    },
+    {
+      name: "HackNJIT 2023 - Medify",
       description:
         "An AI powered hardware hack that got our team 3rd place as freshman at HackNJIT 2023! It allows a user to scan a wound and be given a accurate diagnosis and narrated treatment plan based on the resourcs available to them via a Rasperry Pi contraption and our web app!",
       tags: [
@@ -205,9 +246,9 @@ const stuff = "Hi! My name is Dhruv and I’m a CS and Neuroscience student at R
       source_code_link: "https://devpost.com/software/medify-khoaid",
     },
     {
-      name: "Princeton Soccer Robotics",
+      name: "Team Captain - Princeton Soccer Robotics",
       description:
-        "Was the captain for team Dragons in PSR during 2023, where I led my team of 4 to create and design a autonomous soccer robot that placed 5th in the RoboCupJr USA nationals!", 
+        "Led team Dragons in PSR during 2023, where I led a team of 4 to create and design a autonomous soccer robot that placed 5th in the RoboCupJr USA nationals!", 
       tags: [
         {
           name: "robotics",
@@ -226,9 +267,9 @@ const stuff = "Hi! My name is Dhruv and I’m a CS and Neuroscience student at R
       source_code_link: "https://soccer-robotics.github.io/psr/",
     },
     {
-      name: "CJCP Hacks",
+      name: "Founder - CJCP Hacks",
       description:
-        "Founded and led my high school's CS club, taught hundreds of lower classmen how to code and hosted annual hackathons with 100+ participants across the tristate area, $9k in prizes, and 10+ workshops!",
+        "Led my high school's CS club, taught hundreds of lower classmen how to code and hosted annual hackathons with 100+ participants across the tristate area, $9k in prizes, and 10+ workshops!",
       tags: [
         {
           name: "leadership",

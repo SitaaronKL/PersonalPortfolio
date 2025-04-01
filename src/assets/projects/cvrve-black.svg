@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 637.44 638.88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #111213;
+        filter: url(#outer-glow-1);
+      }
+    </style>
+    <filter id="outer-glow-1" x="0" y="0" width="637.44" height="638.88" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="30"/>
+      <feFlood flood-color="#111213" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="M91.07,547.76l-.95.95c366.74-12.15,457.21-458.54,457.21-458.54l-1.86,1.86c-16.64,47.74-146.95,393.05-454.4,455.73Z"/>
+</svg>
