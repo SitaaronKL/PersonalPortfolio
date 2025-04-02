@@ -23,7 +23,8 @@ import {
     naren,
     max,
     vodify,
-    cvrve
+    cvrve,
+    pantheon
   } from "../assets";
   
   export const navLinks = [
@@ -118,7 +119,20 @@ const stuff = "I’m currently a Presidential Scholar at the Honors College of R
       iconBg: "#383E56",
       date: "March 2025 - Present",
       points: [
-        "Working on the biggest student-to-tech aggregation platform."
+        "Working on the biggest student-to-tech aggregation platform.",
+        "Specifically created the hackathon dashboard with Next.js, global CSS styling, and build checks, to retain visual consistency and performance.",
+        "Implemented cross-domain authentication using Firebase (Google OAuth) and Supabase (PostgreSQL), reducing login in latency by 20%.",
+        "Configured Prisma with Supabase to enable real-time data logging infrastructure for over 75,000 daily visits."
+      ],
+    },
+    {
+      title: "Incoming Cohort",
+      company_name: "Pantheon.nyc",
+      icon: pantheon,
+      iconBg: "#383E56",
+      date: "April 2025 - Present",
+      points: [
+        "Accepted into the first cohort of Pantheon.nyc, a startup accelerator for the top students in the east coast to build their own startups/products."
       ],
     },
     {

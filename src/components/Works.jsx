@@ -59,7 +59,7 @@ const Works = () => {
         <p className={styles.sectionSubText}>
           My work</p>
         <h2 className={styles.sectionHeadText}>
-          Projects.</h2>
+          Projects/Activities.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -67,7 +67,7 @@ const Works = () => {
           variants={fadeIn("","",0.1,1)}
           className='mt-3 text-secondary text-[17x] max-w-3xl leading-[30px]'
         >
-I've worked on a variety of projects ranging from fullstack web apps to running an entire organization. I'm always looking for new projects to work on, so feel free to reach out if you have any ideas or projects you'd like to collaborate on!
+I've worked on a variety of projects ranging from founding startups to running entire organizations. I'm always looking for new stuff to work on, so feel free to reach out if you have any ideas or projects you'd like to collaborate on!
         </motion.p>
       </div>
 

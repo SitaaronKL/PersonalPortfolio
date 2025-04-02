@@ -31,6 +31,7 @@ import naren from "./naren.jpg"
 import max from "./max.jpg"
 import vodify from "./vodify.jpg"
 import cvrve from "./projects/cvrve-black.svg"
+import pantheon from "./pantheon.jpg"
 
 export {
   logo,
@@ -61,5 +62,6 @@ export {
   naren,
   max,
   vodify,
-  cvrve
+  cvrve,
+  pantheon
 };
