@@ -125,16 +125,16 @@ const stuff = "I’m currently a Presidential Scholar at the Honors College of R
         "Configured Prisma with Supabase to enable real-time data logging infrastructure for over 75,000 daily visits."
       ],
     },
-    {
-      title: "Incoming Cohort",
-      company_name: "Pantheon.nyc",
-      icon: pantheon,
-      iconBg: "#383E56",
-      date: "April 2025 - Present",
-      points: [
-        "Accepted into the first cohort of Pantheon.nyc, a startup accelerator for the top students in the east coast to build their own startups/products."
-      ],
-    },
+    // {
+    //   title: "Incoming Cohort",
+    //   company_name: "Pantheon.nyc",
+    //   icon: pantheon,
+    //   iconBg: "#383E56",
+    //   date: "April 2025 - Present",
+    //   points: [
+    //     "Accepted into the first cohort of Pantheon.nyc, a startup accelerator for the top students in the east coast to build their own startups/products."
+    //   ],
+    // },
     {
       title: "Incoming Aresty Research Assistant",
       company_name: "Rutgers University Computational Brain Lab",
